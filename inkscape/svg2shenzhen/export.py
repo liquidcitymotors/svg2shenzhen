@@ -25,106 +25,106 @@ EXPORT_KICAD_MAX_PROCESSES = 2
 PCB_HEADER = '''
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
-	(general
-		(links 0)
-		(no_connects 0)
-		(area 77.052499 41.877835 92.193313 53.630501)
-		(thickness 1.6)
-		(drawings 8)
-		(tracks 0)
-		(zones 0)
-		(modules 1)
-		(nets 1)
-	)
+    (general
+        (links 0)
+        (no_connects 0)
+        (area 77.052499 41.877835 92.193313 53.630501)
+        (thickness 1.6)
+        (drawings 8)
+        (tracks 0)
+        (zones 0)
+        (modules 1)
+        (nets 1)
+    )
 
-	(page A4)
-	(layers
-		(0 F.Cu signal)
-		(31 B.Cu signal)
-		(32 B.Adhes user)
-		(33 F.Adhes user)
-		(34 B.Paste user)
-		(35 F.Paste user)
-		(36 B.SilkS user)
-		(37 F.SilkS user)
-		(38 B.Mask user)
-		(39 F.Mask user)
-		(40 Dwgs.User user)
-		(41 Cmts.User user)
-		(42 Eco1.User user)
-		(43 Eco2.User user)
-		(44 Edge.Cuts user)
-		(45 Margin user)
-		(46 B.CrtYd user)
-		(47 F.CrtYd user)
-		(48 B.Fab user)
-		(49 F.Fab user)
-	)
+    (page A4)
+    (layers
+        (0 F.Cu signal)
+        (31 B.Cu signal)
+        (32 B.Adhes user)
+        (33 F.Adhes user)
+        (34 B.Paste user)
+        (35 F.Paste user)
+        (36 B.SilkS user)
+        (37 F.SilkS user)
+        (38 B.Mask user)
+        (39 F.Mask user)
+        (40 Dwgs.User user)
+        (41 Cmts.User user)
+        (42 Eco1.User user)
+        (43 Eco2.User user)
+        (44 Edge.Cuts user)
+        (45 Margin user)
+        (46 B.CrtYd user)
+        (47 F.CrtYd user)
+        (48 B.Fab user)
+        (49 F.Fab user)
+    )
 
-	(setup
-		(last_trace_width 0.25)
-		(trace_clearance 0.2)
-		(zone_clearance 0.508)
-		(zone_45_only no)
-		(trace_min 0.2)
-		(segment_width 0.2)
-		(edge_width 0.15)
-		(via_size 0.6)
-		(via_drill 0.4)
-		(via_min_size 0.4)
-		(via_min_drill 0.3)
-		(uvia_size 0.3)
-		(uvia_drill 0.1)
-		(uvias_allowed no)
-		(uvia_min_size 0.2)
-		(uvia_min_drill 0.1)
-		(pcb_text_width 0.3)
-		(pcb_text_size 1.5 1.5)
-		(mod_edge_width 0.15)
-		(mod_text_size 1 1)
-		(mod_text_width 0.15)
-		(pad_size 1.524 1.524)
-		(pad_drill 0.762)
-		(pad_to_mask_clearance 0.2)
-		(aux_axis_origin 0 0)
-		(visible_elements FFFFFF7F)
-		(pcbplotparams
-			(layerselection 0x010f0_80000001)
-			(usegerberextensions false)
-			(excludeedgelayer true)
-			(linewidth 0.100000)
-			(plotframeref false)
-			(viasonmask false)
-			(mode 1)
-			(useauxorigin false)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15)
-			(hpglpenoverlay 2)
-			(psnegative false)
-			(psa4output false)
-			(plotreference true)
-			(plotvalue true)
-			(plotinvisibletext false)
-			(padsonsilk false)
-			(subtractmaskfromsilk false)
-			(outputformat 1)
-			(mirror false)
-			(drillshape 1)
-			(scaleselection 1)
-			(outputdirectory gerbers/))
-	)
+    (setup
+        (last_trace_width 0.25)
+        (trace_clearance 0.2)
+        (zone_clearance 0.508)
+        (zone_45_only no)
+        (trace_min 0.2)
+        (segment_width 0.2)
+        (edge_width 0.15)
+        (via_size 0.6)
+        (via_drill 0.4)
+        (via_min_size 0.4)
+        (via_min_drill 0.3)
+        (uvia_size 0.3)
+        (uvia_drill 0.1)
+        (uvias_allowed no)
+        (uvia_min_size 0.2)
+        (uvia_min_drill 0.1)
+        (pcb_text_width 0.3)
+        (pcb_text_size 1.5 1.5)
+        (mod_edge_width 0.15)
+        (mod_text_size 1 1)
+        (mod_text_width 0.15)
+        (pad_size 1.524 1.524)
+        (pad_drill 0.762)
+        (pad_to_mask_clearance 0.2)
+        (aux_axis_origin 0 0)
+        (visible_elements FFFFFF7F)
+        (pcbplotparams
+            (layerselection 0x010f0_80000001)
+            (usegerberextensions false)
+            (excludeedgelayer true)
+            (linewidth 0.100000)
+            (plotframeref false)
+            (viasonmask false)
+            (mode 1)
+            (useauxorigin false)
+            (hpglpennumber 1)
+            (hpglpenspeed 20)
+            (hpglpendiameter 15)
+            (hpglpenoverlay 2)
+            (psnegative false)
+            (psa4output false)
+            (plotreference true)
+            (plotvalue true)
+            (plotinvisibletext false)
+            (padsonsilk false)
+            (subtractmaskfromsilk false)
+            (outputformat 1)
+            (mirror false)
+            (drillshape 1)
+            (scaleselection 1)
+            (outputdirectory gerbers/))
+    )
 
-	(net 0 "")
+    (net 0 "")
 
-	(net_class Default "This is the default net class."
-		(clearance 0.2)
-		(trace_width 0.25)
-		(via_dia 0.6)
-		(via_drill 0.4)
-		(uvia_dia 0.3)
-		(uvia_drill 0.1)
-	)
+    (net_class Default "This is the default net class."
+        (clearance 0.2)
+        (trace_width 0.25)
+        (via_dia 0.6)
+        (via_drill 0.4)
+        (uvia_dia 0.3)
+        (uvia_drill 0.1)
+    )
 '''
 
 PCB_FOOTER = '''
@@ -381,20 +381,30 @@ class Svg2ShenzhenExport(inkex.Effect):
 
         options_path = os.path.join(cache_folder_path, 'options.pickle')
 
-        if os.path.exists(options_path):
-            with open(options_path, 'r') as f:
+        # size checking is probabl unnecessary but avoids exception if options.pickle is not formatted correctly 
+        if os.path.exists(options_path) and (os.path.exists(options_path) != 0):
+            # wb should be fine for 2.7
+            with open(options_path, 'rb') as f:
                 prev_options = pickle.load(f)
-            dpi_equal = prev_options.dpi == options.dpi
-            path_equal = prev_options.path == options.path
-            crop_equal = prev_options.crop == options.crop
-            filetype_equal = prev_options.filetype == options.filetype
-            threshold_equal = prev_options.threshold == options.threshold
+            # maybe catch key error exceptions here if the script encounters an old options.pickle from an old project?
+            dpi_equal = prev_options["dpi"] == options.dpi
+            path_equal = prev_options["path"] == options.path
+            crop_equal = prev_options["crop"] == options.crop
+            filetype_equal = prev_options["filetype"] == options.filetype
+            threshold_equal = prev_options["threshold"] == options.threshold
             ignore_hashes = not dpi_equal or not path_equal or not crop_equal or not filetype_equal or not threshold_equal
         else:
             ignore_hashes = True
 
-        with open(options_path, 'w') as f:
-            pickle.dump(options, f)
+        # make a dictionary of everything save the pesky output buffer entry for pickling
+        to_store = {}
+        for option in vars(options):
+            if option != "output":
+                to_store[option] = vars(options)[option]
+
+        # wb should be fine for 2.7
+        with open(options_path, 'wb') as f:
+            pickle.dump(to_store, f)
 
         layer_arguments = []
         temp_svg_paths = []
@@ -545,7 +555,8 @@ class Svg2ShenzhenExport(inkex.Effect):
             layer_label_name = layer_label.replace("-invert", "")
             layer_label_name = layer_label_name.replace("-auto", "")
 
-            if  layer_label_name in self.layer_map.iterkeys():
+            # not using .keys() for backwards compatibility, i think this serves same purpose?
+            if  layer_label_name in self.layer_map:
                 layer_type = "export"
                 layer_label = layer_label
             elif layer_label.lower().startswith("[fixed] "):
@@ -592,8 +603,9 @@ class Svg2ShenzhenExport(inkex.Effect):
 
 
     def exportToPng(self, svg_path, output_path):
-        area_param = '-D' if self.options.crop else 'C'
-        command = "inkscape %s -d %s -e \"%s\" \"%s\"" % (area_param, self.options.dpi, output_path, svg_path)
+        # fix CLI call with -C, -o, dpi as int
+        area_param = '-D' if self.options.crop else '-C'
+        command = "inkscape %s -d %s -o \"%s\" \"%s\"" % (area_param, int(self.options.dpi), output_path, svg_path)
         if (self.options.debug):
             inkex.debug(command)
         return subprocess.Popen(command.encode("utf-8"), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
